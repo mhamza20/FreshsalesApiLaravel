@@ -3,7 +3,7 @@
   "description": "Wrapper on the REST Freshsales API for Laravel",
   "type": "library",
   "license": "MIT",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "keywords": [
     "laravel",
