@@ -1,5 +1,5 @@
 {
-  "name": "gentor/freshsales-api-laravel",
+  "name": "mhamza20/freshsales-api-laravel",
   "description": "Wrapper on the REST Freshsales API for Laravel",
   "type": "library",
   "license": "MIT",
@@ -12,8 +12,8 @@
   ],
   "authors": [
     {
-      "name": "Evgeni Nurkov",
-      "email": "evgeni.nurkov@gmail.com"
+      "name": "Mohamad Hamza",
+      "email": "mohammad@mohammadhamza.me"
     }
   ],
   "require": {
