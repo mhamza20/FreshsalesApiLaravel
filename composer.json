@@ -1,0 +1,38 @@
+{
+  "name": "gentor/freshsales-api-laravel",
+  "description": "Wrapper on the REST Freshsales API for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "freshsales",
+    "api",
+    "rest",
+    "php"
+  ],
+  "authors": [
+    {
+      "name": "Evgeni Nurkov",
+      "email": "evgeni.nurkov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0|^8.1",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gentor\\FreshsalesApiLaravel\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gentor\\Freshsales\\FreshsalesServiceProvider"
+      ],
+      "aliases": {
+        "Freshsales": "Gentor\\Freshsales\\Freshsales"
+      }
+    }
+  }
+}
